@@ -2,9 +2,8 @@
 /*variaveis pre-definidas recupera informações do formulario; 
 * por exemplo:*/
 
+$nome = (int)$_GET['a'];
 
-
-$nome = $_GET[];
 var_dump($nome);
 
 
