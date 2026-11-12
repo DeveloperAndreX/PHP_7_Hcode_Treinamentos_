@@ -8,8 +8,11 @@ $ano = 1990;
 $salario = 5500.99;
 $bloqueado =  false;
 ///////////////////////////////////////////////////
-$frutas = array("abacaxi","laranja", "manga");   
+$frutas = array("abacaxi","laranja", "manga");
+$cesta_ferramentas = array("chave_de_fenda","chave_estrela_15", "chave_de_boca_10", "chave_L_tira_roda","chave_inglesa");
 
+echo $cesta_ferramentas[3];
+echo "<br/>";
 // echo $frutas[2];
 
 $nascimento = new Datetime();
@@ -17,8 +20,19 @@ $nascimento = new Datetime();
 
 ///////////////////////////////////////////////////
 
-$arquivo = fopen("exemplo-03.php",'w', $bloqueado = false, $context = null);
-var_dump($arquivo);
+$arquivo = fopen("exemplo-03.php",'w', $bloqueado = false, $context = NULL);
+// var_dump($arquivo);
+
+////////////////////////////////////////////////////
+
+$nulo = NULL;
+
+
+
+
+
+
+
 
 
 
