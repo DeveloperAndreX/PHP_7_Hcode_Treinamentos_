@@ -27,19 +27,4 @@ $arquivo = fopen("exemplo-03.php",'w', $bloqueado = false, $context = NULL);
 $nulo = NULL;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ?>
