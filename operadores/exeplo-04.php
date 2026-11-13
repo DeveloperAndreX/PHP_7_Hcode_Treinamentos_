@@ -21,6 +21,12 @@ var_dump($a === $b); // Operador de comparação de valor e Tipo;
 
 echo "<br>";
 
+var_dump($a =! $b); // diferente 
+
+echo "<br>";
+
+var_dump($a ==! $b); // diferente o tipo de dado e o valor;
+
 
 
 
