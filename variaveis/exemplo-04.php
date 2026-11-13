@@ -1,6 +1,6 @@
 <?php
 /*variaveis pre-definidas recupera informações do formulario; 
-* por exemplo:*/
+* por exemplo: arrays superglobais */  
 
 $nome = (int)$_GET["a"];
 
