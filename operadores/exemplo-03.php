@@ -28,7 +28,4 @@ echo "<br>";
 echo $a ** $b; // exponenciação;
 
 
-
-
-
 ?>
