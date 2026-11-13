@@ -1,8 +1,13 @@
 <?php
+// Precedencia de Operadores: 
 
-$resultado = 10 + 3 / 2;
+(int)$resultado = (10 + 3) / 2 > 5 && 10 + 5 < 3;  // false;;
+(int)$resultado2 = (10 + 3) / 2 > 5 || 10 + 5 < 3; // true;
 
-echo $resultado;
+var_dump($resultado);
+echo "<br>";
+var_dump($resultado2);
+
 
 
 

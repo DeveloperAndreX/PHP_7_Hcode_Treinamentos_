@@ -1,0 +1,10 @@
+<?php
+// Strings no PHP:
+
+
+
+
+
+
+
+?>
