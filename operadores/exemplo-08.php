@@ -10,8 +10,4 @@ var_dump($resultado2);
 
 
 
-
-
-
-
 ?>
