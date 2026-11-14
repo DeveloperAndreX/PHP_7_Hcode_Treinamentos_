@@ -13,11 +13,12 @@ if (isset($a) && isset($b)){
     echo $a -= $b;
     echo "<br>";
     echo $a .= $b;
-    echo "<br>";
+      
     
 };
 
-global $resultado;
+global $resultado, $a , $b;
+var_dump($resultado);
 $string = "O valor esta correto no tipo de dado e no valor da variavel: $resultado <br>";
 $resultado = (int)$a + (int)$b;
 echo "<br><br>";
