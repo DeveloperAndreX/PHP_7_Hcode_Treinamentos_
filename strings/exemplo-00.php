@@ -16,11 +16,11 @@ if(isset($a) && isset($b)):
     if($soma > 13):
         echo $texto;
     else:
-        echo "não deu certo tente novamnete";
+        echo ucfirst("não deu certo tente novamnete");
     endif;
 else:
-    echo "As variaveis 'A' e 'B' não foram definidas <br>";
-    echo "Undefined variable";
+    echo ucfirst("As variaveis 'A' e 'B' não foram definidas <br>");
+    echo ucfirst("Undefined variable");
 endif;
 
 
