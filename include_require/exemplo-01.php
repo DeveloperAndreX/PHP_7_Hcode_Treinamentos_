@@ -1,15 +1,6 @@
 <?php
 // Include Require: 
-// include_once e require_once
-
-
-
-
-
-
-
-
-
+// include_once e require_once: 
 
 
 
