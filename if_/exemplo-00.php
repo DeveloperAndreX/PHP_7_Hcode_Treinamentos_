@@ -34,14 +34,4 @@ echo "<br><br>";
 echo $salario > $ganhaSalarioMinimo?"ganha mais que um salario minimo, legal" : "Você ganha abaixo de um salario minimo, TRABALHE MAIS CAMARADA!";
 echo "<br><br>";
 
-
-
-
-
-
-
-
-
-
-
 ?>
