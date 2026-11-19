@@ -19,7 +19,7 @@ echo "Nome do Campo: " . $key . "<br>";
 
 echo "Valor do Campo: " . $value . "<br>";
 
-echo "hr";
+echo "<hr>";
 
     };
 
