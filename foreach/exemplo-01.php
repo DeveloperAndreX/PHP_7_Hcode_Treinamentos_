@@ -8,15 +8,13 @@ $meses = array(
  "Novembro", "Dezembro"
 );
 
-foreach($meses as $mes){
-    echo " O mês e: " . $mes;
+foreach($meses as $index => $mes){
+    echo "Indice: " . $index . "<br>";
+    echo " O mês e: " . $mes . "<br>";
     
-
-
 }
 
-
-
+// Ele vai criar uma variavel para cada. 
 
 
 
