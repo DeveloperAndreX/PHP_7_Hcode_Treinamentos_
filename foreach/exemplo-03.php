@@ -7,7 +7,9 @@
     <input type="submit" value="OK" placeholder="" alt="">
 
 </form>
+
 <?php
+// por padrão quando definimos, sem Method="" e Action="" ele e GET[''];
 
 if(isset($_GET)):
 
@@ -19,23 +21,11 @@ echo "Valor do Campo: " . $value;
 
 echo "hr";
 
-    }
+    };
+
+else:
+    echo "A variavel SuperGlobal GET Não foi definida!";
+    exit();
 endif;
-
-
-
-
-
-
-
-
-?>
-
-
-
-
-
-
-
 
 ?>
