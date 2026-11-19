@@ -10,36 +10,31 @@
     <form action="envia-dados" method="GET">
         <!-- Campo Nome -->
          <div>
-            <label for="nome">NOME:</label>
-            <input type="text" id="nome" name="nome_de_usuario" placeholder=" Digite o seu nome" require></input>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome_de_usuario" placeholder=" Digite o seu nome" require></input><br>
         <!-- Campo de E-mail -->
-            <label for="E-mail">E-MAIL:</label>
-            <input type="email" id="mail" name="E-mail_de_usuario" placeholder="Digite aqui seu E-mail" required></input>
+            <label for="E-mail">E-mail:</label><br>
+            <input type="email" id="mail" name="E-mail_de_usuario" placeholder="Digite aqui seu E-mail" required></input><br>
 
         <!-- Campo de Mensagem -->
-            <label for="msg">DIGITE A MENSAGEM:</label>
-            <input type="text" id="texto" name="campo_de_mensagem" placeholder="digite aqui"></input>
+            <label for="msg">Informe o Texto:</label><br>
+            <input type="text" id="texto" name="campo_de_mensagem" placeholder="digite aqui"></input><br>
 
         <!-- Endereço usuario -->
-            <label for="adress">SEU ENDEREÇO:</label>
-            <input type="text" id="adress" name="endereco" placeholder="Digite seu endereço"></input>
+            <label for="adress">Informe seu Endereço:</label><br>
+            <input type="text" id="adress" name="endereco" placeholder="Digite seu endereço"></input><br>
 
         <!-- Data de Nascimento -->
-            <label for="data_de_nascimento">SELECIONE SEU ANO DE NASCIMENTO</label> 
-            <?php
-            echo "<select>";
-            for($i = date("Y"); $i >= date("Y")-1990; $i--):
-             echo "</select>";
+            <label for="data_de_nascimento">Selecione seu ano de nascimento</label><br>
+            <?php  echo "<select>";   for($i = date("Y"); $i >= date("Y")-100; $i--){  echo "</select>" . "<br>"; }        
              
-            endfor;
-            ?>
             
-
+            ?>
+             <!-- Botão de Envio -->
+             
          </div>
 
-         <!-- Botão de Envio -->
-          <button type="submit">Enviar</button>
     </form>
-
+<button type="button" name="Enviar">Enviar</button><br>
 </body>
 </html>
