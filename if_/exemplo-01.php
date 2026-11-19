@@ -31,12 +31,4 @@ echo "<br>";
 
 echo ($qualSuaIdade < $idadeMaior)? "menor de Idade" : "maior de idade";
 
-
-
-
-
-
-
-
-
 ?>
