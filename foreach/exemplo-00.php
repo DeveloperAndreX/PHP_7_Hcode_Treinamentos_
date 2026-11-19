@@ -1,5 +1,7 @@
 <?php
-// Exemplo Pratico de Foreach:
+// Exemplo Pratico de Foreach para treinamento: 
+
+
 
 
 
