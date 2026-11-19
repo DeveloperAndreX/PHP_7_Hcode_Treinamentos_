@@ -15,9 +15,9 @@ if(isset($_GET)):
 
 foreach ($_GET as $key => $value) {
 
-echo "Nome do Campo: " . $key;
+echo "Nome do Campo: " . $key . "<br>";
 
-echo "Valor do Campo: " . $value;
+echo "Valor do Campo: " . $value . "<br>";
 
 echo "hr";
 
