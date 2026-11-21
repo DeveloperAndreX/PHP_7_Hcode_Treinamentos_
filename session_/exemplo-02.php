@@ -1,6 +1,6 @@
 <?php
 
-include_once("exemplo-03.php");
+include_once("config.php");
 
 // session_destroy();  Limpa a variavel e renova o acesso;
 

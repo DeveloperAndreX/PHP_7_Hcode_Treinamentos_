@@ -1,7 +1,7 @@
 <?php
 // criando variaveis de sesão:
 
-include_once("exemplo-03.php");
+include_once("config.php");
 
 $_SESSION['nome'] = "hcode";
 
