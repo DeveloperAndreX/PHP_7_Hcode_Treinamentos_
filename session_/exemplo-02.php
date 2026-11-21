@@ -12,10 +12,4 @@ if(isset($_SESSION['nome']) && session_status() === PHP_SESSION_NONE){
 
 }
 
-
-
-
-
-
-
 ?>
