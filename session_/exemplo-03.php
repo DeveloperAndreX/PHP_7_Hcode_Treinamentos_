@@ -6,10 +6,4 @@ include_once("config.php");
 echo session_id();  // r38f834ton82amuknqf1rr9hse
 
 
-
-
-
-
-
-
 ?>
