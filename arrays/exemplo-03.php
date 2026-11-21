@@ -14,6 +14,8 @@ array_push($pessoas, array(
 ));
 
 print_r($pessoas);
+echo "<br>";
+print_r($pessoas[1]["idade"]);
 
 
 
