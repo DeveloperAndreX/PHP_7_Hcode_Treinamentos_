@@ -15,10 +15,6 @@ array_push($pessoas, array(
     "idade" => 25
 ));
 
-print_r($pessoas);
-echo "<br>";
-print_r($pessoas[1]["idade"]);
-
 echo json_encode($pessoas);
 
 
