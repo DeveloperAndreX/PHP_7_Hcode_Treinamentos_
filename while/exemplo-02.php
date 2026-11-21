@@ -1,6 +1,7 @@
 <?php
 
-$total = 100;
+$total = 150;
+
 $desconto = 0.9;
 
 do {
