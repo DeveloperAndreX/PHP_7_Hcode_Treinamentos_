@@ -26,7 +26,7 @@
 
         <!-- Data de Nascimento -->
             <label for="data_de_nascimento">Selecione seu ano de nascimento</label><br>
-            <?php  echo "<select>";   for($i = date("Y"); $i >= date("Y")-100; $i--){  echo "</select>" . "<br>"; }        
+            <?php  echo "<select>";  for($i = date("Y"); $i >= date("Y")-100; $i--){  echo "</select>" . "<br>"; }        
              
             
             ?>
