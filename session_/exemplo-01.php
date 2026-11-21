@@ -1,16 +1,11 @@
 <?php
 // criando variaveis de sesão:
 
-session_start();
+include_once("exemplo-03.php");
 
-$_SESSION["nome"] = "hcode";
+$_SESSION['nome'] = "hcode";
 
-
-
-
-
-
-
+echo "Variavel de Sesão Criada";
 
 
 

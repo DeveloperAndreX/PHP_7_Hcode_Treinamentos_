@@ -1,8 +1,17 @@
 <?php
 
-session_start();
+include_once("exemplo-03.php");
 
-echo $_SESSION['nome'];
+//
+session_unset();
+
+
+if(isset($_SESSION['nome']) && session_status() === PHP_SESSION_NONE){
+ echo "Nome da Sessão Iniciada: " . PHP_SESSION_NONE;
+ echo $_SESSION['nome'];
+ 
+}
+
 
 
 
