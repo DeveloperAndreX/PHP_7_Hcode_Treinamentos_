@@ -2,6 +2,7 @@
 // funcções anonimas:
 
 function test($callback){
+    
     // processo lento:
 
     $callback(); 
