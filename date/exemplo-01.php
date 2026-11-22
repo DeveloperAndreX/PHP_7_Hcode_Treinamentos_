@@ -1,5 +1,9 @@
 <?php
-// Trabalhando com Datas no PHP
+// Trabalhando com Datas no PHP:
+
+echo date("Y");
+
+
 
 
 
