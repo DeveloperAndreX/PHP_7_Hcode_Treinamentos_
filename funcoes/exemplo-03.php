@@ -1,12 +1,13 @@
 <?php
 // parametros de Função:
 
-function ola(string $texto){
-    return "Ola Mundo! $texto <br>";
+function ola(string $texto, $periodo = "Bom dia"){
+    return "Ola Mundo! $texto $periodo <br>";
 }
 
 echo ola("mundo");
-echo ola("Glaucio");
-echo ola("João");
+echo ola("","Boa Noite");
+echo ola("Glaucio", "Boa tarde");
+echo ola("Joao", "");
 
 ?>
