@@ -1,7 +1,7 @@
 <?php
 // Trabalhando com Datas no PHP:
 
-echo date("Y");
+echo date("d/m/Y");
 
 
 
