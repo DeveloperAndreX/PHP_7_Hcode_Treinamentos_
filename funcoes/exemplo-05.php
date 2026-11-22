@@ -9,7 +9,6 @@ function trocaValor(&$b) {
 
  return $b;
 }
-
 echo trocaValor($a);
 echo "<br>";
 echo trocaValor($a);
