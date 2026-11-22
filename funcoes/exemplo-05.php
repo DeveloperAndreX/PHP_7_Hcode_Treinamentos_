@@ -1,3 +1,18 @@
 <?php
+// passagem de valor por Referencia:
+
+$a = 10;
+
+function trocaValor($b) {
+ 
+ $b += 50;
+
+ return $b;
+}
+
+echo trocaValor($a);
+echo "<br>";
+echo $a;
+
 
 ?>
