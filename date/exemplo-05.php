@@ -8,7 +8,8 @@ echo $dt->format("l, d/m/y H:m:s");
 "<br>";
 
 $dt->add($periodo);
-"<br>";
+
+"<br><br>";
 
 echo $dt->format("l, d/m/y H:m:s")
 
