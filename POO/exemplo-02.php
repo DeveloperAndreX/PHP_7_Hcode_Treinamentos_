@@ -57,6 +57,12 @@ class Carro {
 // Instanciando a Nossa Classe:
 
 $gol = new Carro();
+// definindo valores para o carro:
+$gol->setModelo("Gol GT");
+$gol->setMotor("1.6");
+$gol->setAno(2017);
+
+
 
 
 
