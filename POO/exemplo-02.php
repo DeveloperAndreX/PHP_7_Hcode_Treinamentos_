@@ -22,13 +22,40 @@ class Carro {
     }
 
     public function getMotor(){
-        
+
         return $this->motor;
     }
 
+    public function setMotor($motor){
 
+        $this->motor = $motor;
+    }
+
+    public function getAno(){
+
+        return $this->ano;
+    }
+
+    public function setAno($ano){
+
+        $this->ano = $ano;
+    }
+
+    public function exibir(){
+
+        return array(
+            "Modelo"=>$this->getModelo(),
+            "Motor"=>$this->getMotor(),
+            "Ano de Fabricacao"=>$this->getAno()
+
+        );
+
+    }
 
 }
+
+// Instanciando a Nossa Classe:
+
 
 
 
