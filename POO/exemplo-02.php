@@ -1,15 +1,15 @@
 <?php
 
 class Carro {
-    private $modelo;
-    private $motor;
-    private $ano;
+    private string $modelo;
+    private float $motor;
+    private int $ano;
 
 
     // Getters and Setters: 
     // Pra cada um desses atributos vamos ter 2 metodos, uma pra pegar o valor, e outro pra definir o valor:
 
-    public function getModelo(){
+    public function getModelo():string {
 
         return $this->modelo;
 
@@ -21,7 +21,7 @@ class Carro {
 
     }
 
-    public function getMotor(){
+    public function getMotor():float{
 
         return $this->motor;
     }
@@ -31,7 +31,7 @@ class Carro {
         $this->motor = $motor;
     }
 
-    public function getAno(){
+    public function getAno():int{
 
         return $this->ano;
     }
@@ -59,9 +59,10 @@ class Carro {
 $gol = new Carro();
 // definindo valores para o carro:
 $gol->setModelo("Gol GT");
-$gol->setMotor("1.6");
+$gol->setMotor(1.6);
 $gol->setAno(2017);
 
+var_dump($gol->exibir());
 
 
 
