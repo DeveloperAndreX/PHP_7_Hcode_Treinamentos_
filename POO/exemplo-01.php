@@ -9,6 +9,10 @@
  * 
  * Toda Vez que criarmos a classe, na hora de usar devemos Instancia-la;
  * 
+ * O que é um Objeto? R: o objeto nada mais e que uma variavél que representa, ou tira uma copia da classe; 
+ * É uma variavel que representa uma classe.
+ * 
+ * 
  */
 
 
