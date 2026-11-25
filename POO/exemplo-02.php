@@ -56,6 +56,9 @@ class Carro {
 
 // Instanciando a Nossa Classe:
 
+$gol = new Carro();
+
+
 
 
 
