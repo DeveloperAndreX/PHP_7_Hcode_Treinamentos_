@@ -1,11 +1,2 @@
 <?php
-// Treinando classes e atributos e Metodos
-
-
-
-
-
-
-
-
-?>
+// Treinando classes e atributos e Metodos: 
