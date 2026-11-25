@@ -12,16 +12,27 @@
  * O que é um Objeto? R: o objeto nada mais e que uma variavél que representa, ou tira uma copia da classe; 
  * É uma variavel que representa uma classe.
  * 
+ * classe começa com a primeira letra Maiuscula
  * 
  */
 
+// Minha primeira Classe:
 
+class Pessoa {
 
+    public $nome; // Atributo
 
+    // criando nossa primeira função:
+    public function falar(){ // Metodo
+        
+        return "O meu nome  e:  " . $this->nome;
 
+    }
 
+}
 
-
-
+$glaucio = new Pessoa();
+$glaucio->nome = "Glaucio Daniel";
+echo $glaucio->falar();
 
 ?>
