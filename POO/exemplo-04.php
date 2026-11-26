@@ -64,9 +64,8 @@ class Documento {
     }
 
   }
+
 }
-
-
 
 
 $cpf = new documento();
