@@ -56,14 +56,16 @@ if(empty($cpf)) {
         return false;
 
      } else {   
-         
+     /* troquei as chaves pelos colchetes pois,
+     o acesso a caracteres de uma string usando chaves foi removido no PHP 8.0
+       */ 
         for ($t = 9; $t < 11; $t++) {
              
             for ($d = 0, $c = 0; $c < $t; $c++) {
-                $d += $cpf{$c} * (($t + 1) - $c);
+                $d += $cpf[$c] * (($t + 1) - $c);
             }
             $d = ((10 * $d) % 11) % 10;
-            if ($cpf{$c} != $d) {
+            if ($cpf[$c] != $d) {
                 return false;
             }
         }
