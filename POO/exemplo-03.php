@@ -67,7 +67,8 @@ class Mercado {
             "Prateleira N° 4: "=>$this->getVerduras()
             
         );
-        print_r(ksort($armazen));
+        
+        return print_r(ksort($armazen));
 
     }
 }
