@@ -73,6 +73,9 @@ class Mercado {
             echo "$key" . "<br>";
         }
     }
+
+    // vou criar um metodo statico com algumas validações:
+    
 }
 
 // Instanciando a Classe mercado;
