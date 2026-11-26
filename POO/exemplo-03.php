@@ -16,22 +16,11 @@ class Mercado {
 
         return $this->frutas;
     }
-
-    public function setFrutas($frutas){
-
-        $this->frutas = $frutas;
-
-    }
+    
 
     public function getVerduras(){
 
         return $this->verduras;
-    }
-
-    public function setVerduras($verdura){
-
-        $this->verduras = $verdura;
-
     }
 
     public function getLegumes(){
@@ -39,21 +28,9 @@ class Mercado {
         return $this->legumes;
     }
 
-    public function setLegumes($legumes){
-
-        $this->legumes = $legumes;
-
-    }
-
     public function getProdutos(){
 
         return $this->produtos;
-
-    }
-
-    public function setProdutos($produto){
-
-        $this->produtos = $produto;
 
     }
 
@@ -78,13 +55,20 @@ class Mercado {
     
 }
 
+
 // Instanciando a Classe mercado;
 
 $market = new Mercado();
+
+/*
 $market->setFrutas("Banana");                 //setFrutas acessa o meu metodo
 $market->setLegumes("Alface Crespa");
 $market->setProdutos("Farinha de Trigo");
 $market->setVerduras("Pepino Japonês");
+
+
+*/
+
 
 // exibindo individualmente:
 
