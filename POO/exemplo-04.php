@@ -65,7 +65,10 @@ class Documento {
 
   }
 }
+
+/*
 $cpf = new documento();
 $cpf->setNumero("21655598214");  // gerador de cpf online
 var_dump($cpf->getNumero());
-
+*/
+// usabilidade: Documento::setNumero("")
