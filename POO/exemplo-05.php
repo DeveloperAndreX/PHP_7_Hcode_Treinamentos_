@@ -20,13 +20,20 @@ public function __construct(string $a, string $b, string $c)
 
     public function __destruct()
     {
-        var_dump("DESTRUIR");   
+        //var_dump("DESTRUIR");   
+    }
+
+    // Metodo Magico ToString:
+    public function __toString()
+    {
+        return $this->logadouro . ", " . $this->numero . ", " . $this->cidade;
     }
 
 }
-
 $meuEndereco = new Endereco("Rua Ademar saraiva Leão","123","Santos");
-var_dump($meuEndereco);
+
+echo $meuEndereco;
+unset($meuEndereco);
 
 
 
