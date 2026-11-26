@@ -12,7 +12,7 @@ class Mercado {
 
 // criando meus getters and setters:
 
-    public function getFrutas():string{
+    public function getFrutas(){
 
         return $this->frutas;
     }
@@ -23,7 +23,7 @@ class Mercado {
 
     }
 
-    public function getVerduras():string{
+    public function getVerduras(){
 
         return $this->verduras;
     }
@@ -34,7 +34,7 @@ class Mercado {
 
     }
 
-    public function getLegumes():string{
+    public function getLegumes(){
 
         return $this->legumes;
     }
@@ -45,7 +45,7 @@ class Mercado {
 
     }
 
-    public function getProdutos():string{
+    public function getProdutos(){
 
         return $this->produtos;
 
@@ -60,20 +60,41 @@ class Mercado {
     public function exibirEstoque(){
         // array para visualização:
 
-        (string)$armazen = array( 
-            "Prateleira N° 1  "=>$this->getFrutas(),
-            "Prateleira N° 2: "=>$this->getLegumes(),
-            "Prateleira N° 3: "=>$this->getProdutos(),
-            "Prateleira N° 4: "=>$this->getVerduras()
+        $armazen = array( 
+            "Prateleira N° 1  "=> $this->getFrutas(),          //chave: "$this->getFrutas   |  $valor: "Prateleira N° 1"
+            "Prateleira N° 2: "=> $this->getLegumes(),
+            "Prateleira N° 3: "=> $this->getProdutos(),
+            "Prateleira N° 4: "=> $this->getVerduras()
             
         );
-
-        return print_r(ksort($armazen));
-
+          // Ordenando um Array
+        sort($armazen);
+        foreach($armazen as $key){
+            echo "$key" . "<br>";
+        }
     }
 }
 
 // Instanciando a Classe mercado;
 
 $market = new Mercado();
-$market->setFrutas("Banana");    //setFrutas acessa o meu metodo
+$market->setFrutas("Banana");                 //setFrutas acessa o meu metodo
+$market->setLegumes("Alface Crespa");
+$market->setProdutos("Farinha de Trigo");
+$market->setVerduras("Pepino Japonês");
+
+// exibindo individualmente:
+
+echo "<ol>" . $market->getFrutas()    ."</ol>" . "<br>";
+echo "<ol>" . $market->getLegumes()   ."</ol>" . "<br>";
+echo "<ol>"  . $market->getProdutos() ."</ol>" . "<br>";
+echo "<ol>"  . $market->getVerduras() ."</ol>" . "<br>";
+
+echo "<br><br>";
+echo "<hr>";
+
+//echo $market->exibirEstoque();
+
+
+
+
