@@ -20,10 +20,7 @@ class documento {
 }
 
 $cpf = new documento();
-$cpf->setNumero("321165488712");
-
-
-
+$cpf->setNumero("12345678909"); 
 var_dump($cpf->getNumero());
 
 // regra de validação do CPF:
