@@ -67,10 +67,13 @@ class Mercado {
             "Prateleira N° 4: "=>$this->getVerduras()
             
         );
-        
+
         return print_r(ksort($armazen));
 
     }
 }
 
+// Instanciando a Classe mercado;
 
+$market = new Mercado();
+$market->setFrutas("Banana");    //setFrutas acessa o meu metodo

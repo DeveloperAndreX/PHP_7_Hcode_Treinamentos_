@@ -35,4 +35,8 @@ $glaucio = new Pessoa();
 $glaucio->nome = "Glaucio Daniel";
 echo $glaucio->falar();
 
+// Instanciando a classe 
+
 ?>
+
+
