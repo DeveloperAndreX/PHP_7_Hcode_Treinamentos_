@@ -2,7 +2,7 @@
 // metodos estaiticos: public static function "Nome"(Parametros){  #code... }
 
 
-class documento {
+class Documento {
 
     private int $numero;
 
@@ -13,6 +13,11 @@ class documento {
     }
 
     public function setNumero($numero){
+        $resultado = Documento::validarCpf($numero);
+        if($resultado === false){
+            // lançando o throw New Exception:
+            throw new Exception("Cpf informado não e Valido", 1);
+        }
 
         $this->numero = $numero;
     }
@@ -64,7 +69,7 @@ $cpf = new documento();
 $cpf->setNumero("12345678909"); 
 var_dump($cpf->getNumero());
 
-
+/*
 class Documentos_2 {
 
     // CPF deve ser string para não perder zeros à esquerda e aceitar pontos/traços
