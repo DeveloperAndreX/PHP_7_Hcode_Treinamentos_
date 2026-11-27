@@ -16,6 +16,10 @@ class Pessoa {
     }   
 }
 
+$objeto = new Pessoa();
+echo $objeto->nome . "<br/>";
+
+
 
 
 
