@@ -4,15 +4,15 @@
 
 class Mercado {
 
-    private $frutas;
-    private $verduras;
-    private $legumes;
-    private $produtos;
+    private string $frutas;
+    private string $verduras;
+    private string $legumes;
+    private string $produtos;
 
 
     // criando o metodo construtor
 
-    public function __construct($a, $b, $c, $d)
+    public function __construct(string $a, string $b, string $c, string $d)
     {
         $this->frutas   = $a;
         $this->verduras = $b;
@@ -43,30 +43,30 @@ class Mercado {
         return $this->produtos;
     }
 
-    public function exibirEstoque(){
-        // array para visualização:
+    public function __toString()
+    {       
+        return ucwords("Prateleira 1: ") . $this->frutas . "<br>" . ucwords("Prateleira 2: ") . $this->verduras . "<br>" . ucwords("Prateleira 3: ")  . $this->legumes . "<br>" . ucwords("Prateleira 4: ") . $this->produtos . "<br><br>";
+        
+          
 
-        $armazen = array( 
-            "Prateleira N° 1  "=> $this->getFrutas(),          //chave: "$this->getFrutas   |  $valor: "Prateleira N° 1"
-            "Prateleira N° 2: "=> $this->getLegumes(),
-            "Prateleira N° 3: "=> $this->getProdutos(),
-            "Prateleira N° 4: "=> $this->getVerduras()
-            
-        );
-
-        // Ordenando um Array
-        sort($armazen);
-        foreach($armazen as $key){
-            echo "$key" . "<br>";
-        }
     }
 
-    public static function exibeIndividual(){
-        
-            
-        }
+    public function __destruct()
+    {
+        echo "DESTRUIU";
+    }
+    
 
 }
+
+class Estoque extends Mercado {
+
+
+}
+echo "<hr>";
+$market = new Mercado("Banana", "Pepino Japonês", "alface crespa", "Tomate Enlatado");
+
+echo $market;
 
 
 ?>
