@@ -53,7 +53,7 @@ class Mercado {
 
     public function __destruct()
     {
-        echo "DESTRUIU";
+       // echo "DESTRUIU";
     }
     
 
@@ -63,10 +63,10 @@ class Estoque extends Mercado {
 
 
 }
-echo "<hr>";
-$market = new Mercado("Banana", "Pepino Japonês", "alface crespa", "Tomate Enlatado");
+
+$market = new Mercado("Banana", "Pepino Japonês", "Alface Crespa", "Tomate Enlatado");
 
 echo $market;
 
-
+echo "<hr>";
 ?>
