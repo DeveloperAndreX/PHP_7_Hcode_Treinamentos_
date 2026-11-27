@@ -53,13 +53,18 @@ class Mercado {
             "Prateleira N° 4: "=> $this->getVerduras()
             
         );
-        
-          // Ordenando um Array
+
+        // Ordenando um Array
         sort($armazen);
         foreach($armazen as $key){
             echo "$key" . "<br>";
         }
     }
+
+    public static function exibeIndividual(){
+        
+            
+        }
 
 }
 
