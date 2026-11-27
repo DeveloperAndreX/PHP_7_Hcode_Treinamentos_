@@ -20,6 +20,29 @@ class Mercado {
         $this->produtos = $d;
     }
 
+    public function getFrutas():string{
+        if(isset($this->frutas)):
+            return $this->frutas;
+        else:
+            throw new Exception("ATRIBUTO NÃO DEFINIDO", 1);
+        endif;
+    }
+
+    public function getVerduras():string{
+
+        return $this->verduras;
+    }
+
+    public function getLegumes():string{
+
+        return $this->legumes;
+    }
+
+    public function getProdutos():string{
+
+        return $this->produtos;
+    }
+
     public function exibirEstoque(){
         // array para visualização:
 
@@ -30,6 +53,7 @@ class Mercado {
             "Prateleira N° 4: "=> $this->getVerduras()
             
         );
+        
           // Ordenando um Array
         sort($armazen);
         foreach($armazen as $key){
