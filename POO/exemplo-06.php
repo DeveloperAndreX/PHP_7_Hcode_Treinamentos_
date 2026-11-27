@@ -61,12 +61,13 @@ class Mercado {
 
 class Estoque extends Mercado {
 
+        // aqui irei criar um metodo recursivo para ir alimentando o estoque da Loja
 
 }
+
 
 $market = new Mercado("Banana", "Pepino Japonês", "Alface Crespa", "Tomate Enlatado");
 
 echo $market;
-
 echo "<hr>";
 ?>

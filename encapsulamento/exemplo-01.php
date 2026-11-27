@@ -1,0 +1,15 @@
+<?php
+// Exemplos de Emcapsulamento:
+
+
+
+
+
+
+
+
+
+
+
+
+?>
