@@ -45,7 +45,7 @@ class Mercado {
 
     public function __toString()
     {       
-        return ucwords("Prateleira 1: ") . $this->frutas . "<br>" . ucwords("Prateleira 2: ") . $this->verduras . "<br>" . ucwords("Prateleira 3: ")  . $this->legumes . "<br>" . ucwords("Prateleira 4: ") . $this->produtos . "<br><br>";
+        return ucwords("Prateleira 1: ") . $this->frutas . "<br/>" . ucwords("Prateleira 2: ") . $this->verduras . "<br/>" . ucwords("Prateleira 3: ")  . $this->legumes . "<br>" . ucwords("Prateleira 4: ") . $this->produtos . "<br/><br/>";
         
           
 
