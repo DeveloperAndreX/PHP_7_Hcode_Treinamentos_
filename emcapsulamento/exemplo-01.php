@@ -17,8 +17,8 @@ class Pessoa {
 }
 
 $objeto = new Pessoa();
-echo $objeto->nome . "<br/>";
-
+//echo $objeto->senha . "<br/>";
+$objeto->verDados();
 
 
 
