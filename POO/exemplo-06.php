@@ -53,7 +53,9 @@ class Mercado {
 
     public function __destruct()
     {
+
        // echo "DESTRUIU";
+
     }
     
 
@@ -61,7 +63,8 @@ class Mercado {
 
 class Estoque extends Mercado {
 
-        // aqui irei criar um metodo recursivo para ir alimentando o estoque da Loja
+        // aqui irei criar um metodo recursivo para ir alimentando o estoque da Loja;
+        
 
 }
 
