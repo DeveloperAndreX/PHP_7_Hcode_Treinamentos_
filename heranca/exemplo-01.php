@@ -29,7 +29,9 @@ class CPF extends Documento {
 
         return true;
     }
+}
 
+    /*
     public static function validarCpf($cpf){
 
 
@@ -74,8 +76,7 @@ class CPF extends Documento {
         }
 
     }
-
-
+*/
 
 $doc = new CPF();
 $doc->setNumero("111122223333-44");
